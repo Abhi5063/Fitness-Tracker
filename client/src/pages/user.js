@@ -34,7 +34,7 @@ export default function User() {
     };
     console.log(user);
     axios
-      .post("https://fitness-tracker-mern.herokuapp.com/users/add/", user)
+      .post("https://fitness-tracker-backend-vizz.onrender.com/users/add/", user)
       .then((res) => {
         console.log(res.data);
         alert("User created successfully!");

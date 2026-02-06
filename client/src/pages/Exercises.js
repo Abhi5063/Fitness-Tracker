@@ -21,7 +21,7 @@ export default function Exercises() {
 
   React.useEffect(() => {
     axios
-      .get("https://fitness-tracker-mern.herokuapp.com/users")
+      .get("https://fitness-tracker-backend-vizz.onrender.com/users")
       .then((response) => {
         if (response.data.length > 0) {
           setUsers(response.data.map((user) => user.username));
@@ -61,7 +61,7 @@ export default function Exercises() {
 
     axios
       .post(
-        "https://fitness-tracker-mern.herokuapp.com/exercises/add/",
+        "https://fitness-tracker-backend-vizz.onrender.com/exercises/add/",
         exercise
       )
       .then((res) => {
