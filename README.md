@@ -2,6 +2,12 @@
 
 A modern fitness tracking application built with the MERN stack (MongoDB, Express, React, Node.js). Track your fitness activities, monitor your progress, and stay consistent in your fitness journey.
 
+## 🚀 Live Demo
+
+**[View Live Application](https://fitness-tracker-6tkn.onrender.com)**
+
+> **Note**: The app is hosted on Render's free tier. The first load may take 30-60 seconds as the server spins up from sleep mode.
+
 ## Features
 
 - 👤 **User Management** - Create and manage multiple user profiles
